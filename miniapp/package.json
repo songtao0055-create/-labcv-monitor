@@ -1,0 +1,24 @@
+{
+  "name": "labcv-miniapp",
+  "version": "1.0.0",
+  "description": "LabCV 实验室智能监控小程序",
+  "scripts": {
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:mp-weixin": "uni build -p mp-weixin"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "^3.0.0-alpha-3070720230314001",
+    "@dcloudio/uni-mp-weixin": "^3.0.0-alpha-3070720230314001",
+    "@dcloudio/uni-ui": "^1.5.6",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.8"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.3.15",
+    "@dcloudio/uni-automator": "^3.0.0-alpha-3070720230314001",
+    "@dcloudio/uni-cli-shared": "^3.0.0-alpha-3070720230314001",
+    "@dcloudio/vite-plugin-uni": "^3.0.0-alpha-3070720230314001",
+    "sass": "^1.69.5",
+    "vite": "^5.0.0"
+  }
+}

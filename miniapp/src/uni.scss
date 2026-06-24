@@ -1,0 +1,42 @@
+// ========== 全局 SCSS 变量 ==========
+
+// 背景色
+$bg-primary: #0f0f23;
+$bg-secondary: #1a1a2e;
+$bg-card: rgba(255, 255, 255, 0.05);
+$bg-card-hover: rgba(255, 255, 255, 0.08);
+
+// 文字色
+$text-primary: #e6f1ff;
+$text-secondary: #8892b0;
+$text-muted: #5a6480;
+
+// 主题色
+$accent: #64ffda;
+$accent-blue: #5b8def;
+$danger: #ff6b6b;
+$warning: #ffd93d;
+$orange: #ff9f43;
+$success: #2ed573;
+
+// 告警级别色
+$level-normal: #2ed573;
+$level-warning: #ffd93d;
+$level-critical: #ff6b6b;
+
+// 间距
+$spacing-xs: 8rpx;
+$spacing-sm: 16rpx;
+$spacing-md: 24rpx;
+$spacing-lg: 32rpx;
+$spacing-xl: 48rpx;
+
+// 圆角
+$radius-sm: 8rpx;
+$radius-md: 12rpx;
+$radius-lg: 20rpx;
+$radius-full: 999rpx;
+
+// 阴影
+$shadow-card: 0 4rpx 20rpx rgba(0, 0, 0, 0.3);
+$shadow-glow: 0 0 20rpx rgba(100, 255, 218, 0.15);

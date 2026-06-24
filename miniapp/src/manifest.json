@@ -1,0 +1,26 @@
+{
+  "name": "LabCV",
+  "appid": "wx0123029f69dc699a",
+  "description": "实验室智能监控与数据管理平台",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "wx0123029f69dc699a",
+    "setting": {
+      "urlCheck": true,
+      "es6": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "permission": {
+      "scope.camera": {
+        "desc": "用于人脸识别验证身份"
+      },
+      "scope.record": {
+        "desc": "用于录制告警视频"
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "云韬氢能韶关监控中心"
+      }
+    },
+    {
+      "path": "pages/monitor/monitor",
+      "style": {
+        "navigationBarTitleText": "实时监控",
+        "navigationBarBackgroundColor": "#000000",
+        "backgroundColor": "#000000",
+        "backgroundColorTop": "#000000",
+        "backgroundColorBottom": "#000000"
+      }
+    },
+    {
+      "path": "pages/alert-detail/alert-detail",
+      "style": {
+        "navigationBarTitleText": "告警详情",
+        "backgroundColor": "#0f0f23",
+        "backgroundColorTop": "#0f0f23",
+        "backgroundColorBottom": "#0f0f23"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "云韬氢能韶关监控中心",
+        "backgroundColor": "#0f0f23",
+        "backgroundColorTop": "#0f0f23",
+        "backgroundColorBottom": "#0f0f23"
+      }
+    },
+    {
+      "path": "pages/alert/alert",
+      "style": {
+        "navigationBarTitleText": "实时告警",
+        "backgroundColor": "#0f0f23",
+        "backgroundColorTop": "#0f0f23",
+        "backgroundColorBottom": "#0f0f23"
+      }
+    },
+    {
+      "path": "pages/user/user",
+      "style": {
+        "navigationBarTitleText": "个人中心",
+        "backgroundColor": "#0f0f23",
+        "backgroundColorTop": "#0f0f23",
+        "backgroundColorBottom": "#0f0f23"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarBackgroundColor": "#1a1a2e",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "云韬氢能韶关",
+    "backgroundColor": "#0f0f23",
+    "backgroundColorTop": "#0f0f23",
+    "backgroundColorBottom": "#0f0f23"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  }
+}

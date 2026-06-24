@@ -1,0 +1,49 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# 视频和图片
+hls/
+alerts_img/
+
+# 可执行文件
+*.exe
+*.zip
+*.tar.gz
+
+# 数据库
+*.db
+
+# 证书
+*.key
+*.crt
+
+# IDE
+.idea/
+.claude/
+
+# 小程序编译产物
+miniapp/dist/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# ngrok / cloudflare
+ngrok*
+cloudflared*
+
+# 第三方代码 / 临时目录
+c14d6-main/
+mediamtx_dir/
+
+# 未使用的模型
+yolo26n.pt
+models/external_best.pt
+models/fire-yolov8n-fireonly-backup.pt
+models/fire-yolov8n.pt
+models/yolov8n.pt
+
+# 含密钥的文件
+feishu_bot.py

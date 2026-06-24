@@ -1,0 +1,14 @@
+logLevel: info
+
+paths:
+  camera1:
+    source: rtsp://admin:yuntao888@192.168.1.64:554/Streaming/Channels/102
+    sourceOnDemand: no
+    rtspTransport: tcp
+
+hlsAddress: :8888
+hlsVariant: mpegts
+hlsDirectory: D:\yt\labcv\hls
+hlsSegmentCount: 30
+hlsSegmentDuration: 3s
+hlsAlwaysRemux: yes
